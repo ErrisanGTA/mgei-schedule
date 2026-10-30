@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-30T08:48:49.927Z",
-  "updatedAtFormatted": "30.10.2026, 11:48",
+  "updatedAt": "2026-10-30T09:08:42.398Z",
+  "updatedAtFormatted": "30.10.2026, 12:08",
   "faculties": [
     {
       "value": "2",
@@ -1770,8 +1770,8 @@
     "totalGroups": 76,
     "totalSchedulesSaved": 532,
     "errorsCount": 0,
-    "durationSec": 378.6,
-    "finishedAt": "2026-10-30T08:55:08.024Z"
+    "durationSec": 183.6,
+    "finishedAt": "2026-10-30T09:11:45.384Z"
   },
   "targetWeeks": [
     {
