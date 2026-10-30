@@ -205,35 +205,13 @@ export function reRenderCurrentSchedule(): void {
 }
 
 export function updateCacheBanner(): void {
-  const banner = document.getElementById('cacheStatusBanner')
-  if (!banner) return
-  if (state.isFromCache) {
-    banner.style.display = 'flex'
-    banner.className = 'cache-offline-banner'
-    banner.innerHTML = `
-      <div class="cache-banner-icon" aria-hidden="true">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
-          <line x1="12" y1="9" x2="12" y2="13"></line>
-          <line x1="12" y1="17" x2="12.01" y2="17"></line>
-        </svg>
-      </div>
-      <div class="cache-banner-body">
-        <span class="cache-banner-title">Данные расписания</span>
-        <span class="cache-banner-desc">Последнее обновление: ${state.cachedAt || 'неизвестно'}</span>
-      </div>
-    `
-  } else {
-    banner.style.display = 'none'
-    banner.innerHTML = ''
-  }
-}
-
-export function renderSchedule(schedule: ScheduleData, weekValue: string): void {
+  // Banner removed from the main view; the "last updated" info now lives
+  // in the settings modal (rendered by updateSettingsUpdateInfo in main.ts).
+  // Kept as a no-op for API compatibility.
+}export function renderSchedule(schedule: ScheduleData, weekValue: string): void {
   _weekViewActive = false
   _cachedSchedule = schedule
   _cachedWeekDays = []
-  updateCacheBanner()
 
   if (schedule.empty) {
     const weekSection = document.getElementById('weekSection')

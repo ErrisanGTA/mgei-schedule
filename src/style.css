@@ -2105,47 +2105,29 @@ a, button, select, input { touch-action: manipulation; }
   50% { transform: translateY(7px); }
 }
 
-/* ── Offline Cache Banner ─────────────────────────────────── */
-.cache-offline-banner {
+/* ── Data Update Info (settings modal) ────────────────────── */
+.data-update-info {
   display: flex;
   align-items: center;
-  gap: 14px;
-  background: rgba(245, 158, 11, 0.12);
-  border: 1.5px solid rgba(245, 158, 11, 0.35);
-  border-radius: var(--radius, 14px);
-  padding: 12px 18px;
-  margin-bottom: 20px;
-  color: var(--text-dark, #1e293b);
-  animation: fadeIn 0.3s ease-out;
-  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.05));
-}
-.cache-banner-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #f59e0b;
-  flex-shrink: 0;
-}
-.cache-banner-body {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-.cache-banner-title {
-  font-weight: 700;
-  font-size: 14px;
-  color: #d97706;
-  letter-spacing: 0.2px;
-}
-[data-theme="dark"] .cache-banner-title,
-[data-theme="oled"] .cache-banner-title,
-[data-theme="nord"] .cache-banner-title,
-[data-theme="forest"] .cache-banner-title {
-  color: #fbbf24;
-}
-.cache-banner-desc {
-  font-size: 13px;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border, #e2e8f0);
+  font-size: 12px;
   color: var(--text-muted, #64748b);
-  line-height: 1.35;
+}
+.data-update-info svg {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.data-update-info strong {
+  color: var(--text-primary, #1e293b);
+  font-weight: 600;
+}
+[data-theme="dark"] .data-update-info strong,
+[data-theme="dark-sapphire"] .data-update-info strong,
+[data-theme="dark-amethyst"] .data-update-info strong,
+[data-theme="dark-amber"] .data-update-info strong {
+  color: var(--text-primary, #e2e8f0);
 }
 

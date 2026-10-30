@@ -152,6 +152,14 @@ const template = `
         </div>
         <div class="theme-picker-grid" id="themePickerGrid"></div>
       </div>
+
+      <div class="data-update-info" id="dataUpdateInfo">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        <span>Данные расписания обновлены: <strong id="dataUpdatedAt">—</strong></span>
+      </div>
     </div>
   </div>
 
@@ -304,7 +312,6 @@ const template = `
       </div>
 
       <div id="scheduleContainer" style="display:none">
-        <div id="cacheStatusBanner" style="display:none"></div>
         <div class="day-tabs" id="dayTabs"></div>
         <div id="scheduleContent"></div>
         <button class="btn-week-view" id="btnWeekView" style="display:none">
@@ -398,6 +405,13 @@ function setupThemeSelector(): void {
   }
 }
 
+// ── Data update info (in settings modal) ─────────────────────
+
+function updateSettingsUpdateInfo(): void {
+  const el = document.getElementById('dataUpdatedAt')
+  if (el) el.textContent = state.cachedAt || '—'
+}
+
 // ── Subgroup selector ────────────────────────────────────────
 
 function setupSubgroupSelector(): void {
@@ -455,6 +469,7 @@ async function init(): Promise<void> {
 
   try {
     meta = await loadMeta()
+    updateSettingsUpdateInfo()
 
     state.faculties = meta.faculties ?? []
     state.weeks = meta.weeks ?? []
