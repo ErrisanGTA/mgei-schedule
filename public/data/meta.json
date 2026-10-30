@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-24T16:17:31.473Z",
-  "updatedAtFormatted": "24.09.2026, 19:17",
+  "updatedAt": "2026-10-30T08:48:49.927Z",
+  "updatedAtFormatted": "30.10.2026, 11:48",
   "faculties": [
     {
       "value": "2",
@@ -454,6 +454,13 @@
     ],
     "4_3_4": [
       {
+        "value": "319",
+        "text": "А42МД1",
+        "selected": false
+      }
+    ],
+    "4_3_5": [
+      {
         "value": "278",
         "text": "А32МД1.1",
         "selected": false
@@ -471,33 +478,6 @@
       {
         "value": "361",
         "text": "А32МД2.2",
-        "selected": false
-      },
-      {
-        "value": "319",
-        "text": "А42МД1",
-        "selected": false
-      }
-    ],
-    "4_3_5": [
-      {
-        "value": "206",
-        "text": "А12МЕЭ1",
-        "selected": false
-      },
-      {
-        "value": "238",
-        "text": "А22МЕЭ1",
-        "selected": false
-      },
-      {
-        "value": "239",
-        "text": "А22МЕЭ2",
-        "selected": false
-      },
-      {
-        "value": "240",
-        "text": "А22МЕЭ3",
         "selected": false
       }
     ]
@@ -1148,42 +1128,6 @@
       "dep": "3",
       "depName": "заочная форма",
       "course": "4",
-      "groupId": "278",
-      "groupName": "А32МД1.1"
-    },
-    {
-      "fac": "4",
-      "facName": "Факультет экологической медицины",
-      "dep": "3",
-      "depName": "заочная форма",
-      "course": "4",
-      "groupId": "360",
-      "groupName": "А32МД1.2"
-    },
-    {
-      "fac": "4",
-      "facName": "Факультет экологической медицины",
-      "dep": "3",
-      "depName": "заочная форма",
-      "course": "4",
-      "groupId": "279",
-      "groupName": "А32МД2.1"
-    },
-    {
-      "fac": "4",
-      "facName": "Факультет экологической медицины",
-      "dep": "3",
-      "depName": "заочная форма",
-      "course": "4",
-      "groupId": "361",
-      "groupName": "А32МД2.2"
-    },
-    {
-      "fac": "4",
-      "facName": "Факультет экологической медицины",
-      "dep": "3",
-      "depName": "заочная форма",
-      "course": "4",
       "groupId": "319",
       "groupName": "А42МД1"
     },
@@ -1193,8 +1137,8 @@
       "dep": "3",
       "depName": "заочная форма",
       "course": "5",
-      "groupId": "206",
-      "groupName": "А12МЕЭ1"
+      "groupId": "278",
+      "groupName": "А32МД1.1"
     },
     {
       "fac": "4",
@@ -1202,8 +1146,8 @@
       "dep": "3",
       "depName": "заочная форма",
       "course": "5",
-      "groupId": "238",
-      "groupName": "А22МЕЭ1"
+      "groupId": "360",
+      "groupName": "А32МД1.2"
     },
     {
       "fac": "4",
@@ -1211,8 +1155,8 @@
       "dep": "3",
       "depName": "заочная форма",
       "course": "5",
-      "groupId": "239",
-      "groupName": "А22МЕЭ2"
+      "groupId": "279",
+      "groupName": "А32МД2.1"
     },
     {
       "fac": "4",
@@ -1220,11 +1164,16 @@
       "dep": "3",
       "depName": "заочная форма",
       "course": "5",
-      "groupId": "240",
-      "groupName": "А22МЕЭ3"
+      "groupId": "361",
+      "groupName": "А32МД2.2"
     }
   ],
   "weeks": [
+    {
+      "value": "18.01.2027 0:00:00",
+      "text": "18.01.2027",
+      "selected": false
+    },
     {
       "value": "11.01.2027 0:00:00",
       "text": "11.01.2027",
@@ -1283,7 +1232,7 @@
     {
       "value": "26.10.2026 0:00:00",
       "text": "26.10.2026",
-      "selected": false
+      "selected": true
     },
     {
       "value": "19.10.2026 0:00:00",
@@ -1308,7 +1257,7 @@
     {
       "value": "21.09.2026 0:00:00",
       "text": "21.09.2026",
-      "selected": true
+      "selected": false
     },
     {
       "value": "14.09.2026 0:00:00",
@@ -1814,22 +1763,42 @@
       "value": "02.09.2024 0:00:00",
       "text": "02.09.2024",
       "selected": false
-    },
-    {
-      "value": "15.07.2024 0:00:00",
-      "text": "15.07.2024",
-      "selected": false
     }
   ],
-  "currentWeek": "21.09.2026 0:00:00",
+  "currentWeek": "26.10.2026 0:00:00",
   "stats": {
-    "totalGroups": 80,
-    "totalSchedulesSaved": 560,
+    "totalGroups": 76,
+    "totalSchedulesSaved": 532,
     "errorsCount": 0,
-    "durationSec": 105.1,
-    "finishedAt": "2026-09-24T16:19:16.339Z"
+    "durationSec": 378.6,
+    "finishedAt": "2026-10-30T08:55:08.024Z"
   },
   "targetWeeks": [
+    {
+      "value": "23.11.2026 0:00:00",
+      "text": "23.11.2026",
+      "selected": false
+    },
+    {
+      "value": "16.11.2026 0:00:00",
+      "text": "16.11.2026",
+      "selected": false
+    },
+    {
+      "value": "09.11.2026 0:00:00",
+      "text": "09.11.2026",
+      "selected": false
+    },
+    {
+      "value": "02.11.2026 0:00:00",
+      "text": "02.11.2026",
+      "selected": false
+    },
+    {
+      "value": "26.10.2026 0:00:00",
+      "text": "26.10.2026",
+      "selected": true
+    },
     {
       "value": "19.10.2026 0:00:00",
       "text": "19.10.2026",
@@ -1838,31 +1807,6 @@
     {
       "value": "12.10.2026 0:00:00",
       "text": "12.10.2026",
-      "selected": false
-    },
-    {
-      "value": "05.10.2026 0:00:00",
-      "text": "05.10.2026",
-      "selected": false
-    },
-    {
-      "value": "28.09.2026 0:00:00",
-      "text": "28.09.2026",
-      "selected": false
-    },
-    {
-      "value": "21.09.2026 0:00:00",
-      "text": "21.09.2026",
-      "selected": true
-    },
-    {
-      "value": "14.09.2026 0:00:00",
-      "text": "14.09.2026",
-      "selected": false
-    },
-    {
-      "value": "07.09.2026 0:00:00",
-      "text": "07.09.2026",
       "selected": false
     }
   ]
