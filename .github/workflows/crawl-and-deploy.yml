@@ -1,0 +1,80 @@
+name: Crawl & Deploy
+
+on:
+  # Manual trigger from GitHub UI
+  workflow_dispatch:
+  # Schedule: Wed, Fri, Sat, Sun — 08:00 UTC (11:00 Minsk time)
+  schedule:
+    - cron: '0 8 * * 3,5,6,0'
+
+# Single crawl at a time
+concurrency:
+  group: crawl-and-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Crawl schedule data
+        run: node crawler.js
+        env:
+          CACHE_DIR: ${{ github.workspace }}/public/data
+
+      - name: Keep only parsed JSON (drop raw html snapshots)
+        run: |
+          echo "Crawler output:"
+          ls -la public/data
+          # The crawler writes html/ and snapshots/ next to meta.json — remove the heavy raw HTML,
+          # the static site only consumes meta.json and parsed/*.json
+          rm -rf public/data/html public/data/snapshots
+          echo "Parsed schedule files: $(ls public/data/parsed | wc -l)"
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit updated data to main
+        # Only push when the crawl produced changes (and never on manual runs from non-main branches)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore(data): auto-update schedule cache [skip ci]"
+            git push
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

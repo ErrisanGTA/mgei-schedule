@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- SEO -->
+    <title>Расписание занятий — МГЭИ им. А.Д. Сахарова БГУ</title>
+    <meta name="description" content="Удобное расписание занятий МГЭИ им. А.Д. Сахарова БГУ. Выберите группу один раз и смотрите расписание на любую неделю." />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#16a34a" />
+
+    <!-- Instant Theme Loader (prevents flash) -->
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('iseu_theme_v1');
+          if (t) {
+            var map = { 'light-green': 'emerald', 'dark-green': 'dark', 'white-gray': 'ocean' };
+            document.documentElement.dataset.theme = map[t] || t;
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- iOS PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Расписание МГЭИ" />
+    <link rel="apple-touch-icon" href="./logo.jpg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Расписание МГЭИ им. А.Д. Сахарова БГУ" />
+    <meta property="og:description" content="Удобное расписание занятий на неделю с навигацией по датам" />
+    <meta property="og:type" content="website" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="./logo.jpg" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <!-- Register Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch(() => {})
+        })
+      }
+    </script>
+  </body>
+</html>

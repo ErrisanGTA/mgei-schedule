@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1729"/>
+      <stop offset="100%" stop-color="#080b14"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Glow -->
+  <ellipse cx="256" cy="256" rx="180" ry="180" fill="#6366f1" opacity="0.08"/>
+  <!-- Shield -->
+  <path d="M256 96 L380 148 L380 256 C380 330 318 388 256 416 C194 388 132 330 132 256 L132 148 Z" fill="url(#shield)" filter="url(#glow)" opacity="0.95"/>
+  <!-- Calendar icon inside shield -->
+  <rect x="196" y="210" width="120" height="100" rx="8" fill="white" opacity="0.95"/>
+  <rect x="196" y="195" width="120" height="28" rx="8" fill="white" opacity="0.95"/>
+  <rect x="210" y="188" width="14" height="20" rx="4" fill="#6366f1"/>
+  <rect x="288" y="188" width="14" height="20" rx="4" fill="#6366f1"/>
+  <!-- Checkmark lines on calendar -->
+  <line x1="216" y1="255" x2="232" y2="271" stroke="#6366f1" stroke-width="8" stroke-linecap="round"/>
+  <line x1="232" y1="271" x2="300" y2="235" stroke="#6366f1" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,1869 @@
+{
+  "updatedAt": "2026-09-24T16:17:31.473Z",
+  "updatedAtFormatted": "24.09.2026, 19:17",
+  "faculties": [
+    {
+      "value": "2",
+      "text": "Факультет мониторинга окружающей среды",
+      "selected": true
+    },
+    {
+      "value": "3",
+      "text": "Факультет повышения квалификации и переподготовки",
+      "selected": false
+    },
+    {
+      "value": "4",
+      "text": "Факультет экологической медицины",
+      "selected": false
+    }
+  ],
+  "deps": {
+    "2": [
+      {
+        "value": "2",
+        "text": "дневная форма",
+        "selected": true
+      },
+      {
+        "value": "3",
+        "text": "заочная форма",
+        "selected": false
+      }
+    ],
+    "3": [
+      {
+        "value": "2",
+        "text": "дневная форма",
+        "selected": true
+      },
+      {
+        "value": "3",
+        "text": "заочная форма",
+        "selected": false
+      }
+    ],
+    "4": [
+      {
+        "value": "2",
+        "text": "дневная форма",
+        "selected": true
+      },
+      {
+        "value": "3",
+        "text": "заочная форма",
+        "selected": false
+      }
+    ]
+  },
+  "courses": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "groups": {
+    "2_2_1": [
+      {
+        "value": "369",
+        "text": "А61ИТ1",
+        "selected": true
+      },
+      {
+        "value": "370",
+        "text": "А61ИТ2",
+        "selected": false
+      },
+      {
+        "value": "371",
+        "text": "А61ИТ3",
+        "selected": false
+      },
+      {
+        "value": "366",
+        "text": "А61МФ1",
+        "selected": false
+      },
+      {
+        "value": "367",
+        "text": "А61ЭБ1",
+        "selected": false
+      },
+      {
+        "value": "368",
+        "text": "А61ЭБ2",
+        "selected": false
+      },
+      {
+        "value": "365",
+        "text": "А61ЯБ1",
+        "selected": false
+      }
+    ],
+    "2_2_2": [
+      {
+        "value": "331",
+        "text": "А51ИТ1",
+        "selected": false
+      },
+      {
+        "value": "332",
+        "text": "А51ИТ2",
+        "selected": false
+      },
+      {
+        "value": "333",
+        "text": "А51ИТ3",
+        "selected": false
+      },
+      {
+        "value": "334",
+        "text": "А51ИТ4",
+        "selected": false
+      },
+      {
+        "value": "330",
+        "text": "А51МФ1",
+        "selected": false
+      },
+      {
+        "value": "329",
+        "text": "А51ЯБ1",
+        "selected": false
+      }
+    ],
+    "2_2_3": [
+      {
+        "value": "298",
+        "text": "А41ИТ1",
+        "selected": false
+      },
+      {
+        "value": "299",
+        "text": "А41ИТ2",
+        "selected": false
+      },
+      {
+        "value": "300",
+        "text": "А41ИТ3",
+        "selected": false
+      },
+      {
+        "value": "301",
+        "text": "А41ИТ4",
+        "selected": false
+      },
+      {
+        "value": "295",
+        "text": "А41МФ1",
+        "selected": false
+      },
+      {
+        "value": "297",
+        "text": "А41ПД1",
+        "selected": false
+      },
+      {
+        "value": "296",
+        "text": "А41ТТ1",
+        "selected": false
+      },
+      {
+        "value": "294",
+        "text": "А41ЯР1",
+        "selected": false
+      }
+    ],
+    "2_2_4": [
+      {
+        "value": "255",
+        "text": "А31ИТ1",
+        "selected": false
+      },
+      {
+        "value": "256",
+        "text": "А31ИТ2",
+        "selected": false
+      },
+      {
+        "value": "290",
+        "text": "А31ИТ3",
+        "selected": false
+      },
+      {
+        "value": "252",
+        "text": "А31МФ",
+        "selected": false
+      },
+      {
+        "value": "254",
+        "text": "А31ПД1",
+        "selected": false
+      },
+      {
+        "value": "253",
+        "text": "А31ТТ1",
+        "selected": false
+      },
+      {
+        "value": "251",
+        "text": "А31ЯР1",
+        "selected": false
+      }
+    ],
+    "2_2_5": [
+      {
+        "value": "223",
+        "text": "А21ЯРБ1",
+        "selected": false
+      }
+    ],
+    "2_3_1": [],
+    "2_3_2": [],
+    "2_3_3": [],
+    "2_3_4": [],
+    "2_3_5": [
+      {
+        "value": "229",
+        "text": "А22ЭТЭ",
+        "selected": false
+      },
+      {
+        "value": "277",
+        "text": "А32ТТ1",
+        "selected": false
+      }
+    ],
+    "2_3_6": [],
+    "3_2_1": [
+      {
+        "value": "384",
+        "text": "А1",
+        "selected": true
+      },
+      {
+        "value": "385",
+        "text": "А2",
+        "selected": false
+      },
+      {
+        "value": "386",
+        "text": "А3",
+        "selected": false
+      }
+    ],
+    "4_2_1": [
+      {
+        "value": "374",
+        "text": "А61МД1",
+        "selected": true
+      },
+      {
+        "value": "375",
+        "text": "А61МД2",
+        "selected": false
+      },
+      {
+        "value": "376",
+        "text": "А61МД3",
+        "selected": false
+      },
+      {
+        "value": "377",
+        "text": "А61МД4",
+        "selected": false
+      },
+      {
+        "value": "378",
+        "text": "А61МД5",
+        "selected": false
+      },
+      {
+        "value": "372",
+        "text": "А61ЭК1",
+        "selected": false
+      },
+      {
+        "value": "373",
+        "text": "А61ЭК2",
+        "selected": false
+      }
+    ],
+    "4_2_2": [
+      {
+        "value": "338",
+        "text": "А51МД1",
+        "selected": false
+      },
+      {
+        "value": "339",
+        "text": "А51МД2",
+        "selected": false
+      },
+      {
+        "value": "340",
+        "text": "А51МД3",
+        "selected": false
+      },
+      {
+        "value": "341",
+        "text": "А51МД4",
+        "selected": false
+      },
+      {
+        "value": "342",
+        "text": "А51МД5",
+        "selected": false
+      },
+      {
+        "value": "335",
+        "text": "А51ЭК1",
+        "selected": false
+      },
+      {
+        "value": "336",
+        "text": "А51ЭК2",
+        "selected": false
+      },
+      {
+        "value": "337",
+        "text": "А51ЭК3",
+        "selected": false
+      }
+    ],
+    "4_2_3": [
+      {
+        "value": "304",
+        "text": "А41МД1",
+        "selected": false
+      },
+      {
+        "value": "305",
+        "text": "А41МД2",
+        "selected": false
+      },
+      {
+        "value": "306",
+        "text": "А41МД3",
+        "selected": false
+      },
+      {
+        "value": "307",
+        "text": "А41МД4",
+        "selected": false
+      },
+      {
+        "value": "308",
+        "text": "А41МД5",
+        "selected": false
+      },
+      {
+        "value": "379",
+        "text": "А41МД6",
+        "selected": false
+      },
+      {
+        "value": "302",
+        "text": "А41ЭК1",
+        "selected": false
+      },
+      {
+        "value": "303",
+        "text": "А41ЭК2",
+        "selected": false
+      },
+      {
+        "value": "309",
+        "text": "А41ЭК3",
+        "selected": false
+      }
+    ],
+    "4_2_4": [
+      {
+        "value": "258",
+        "text": "А31МД1",
+        "selected": false
+      },
+      {
+        "value": "259",
+        "text": "А31МД2",
+        "selected": false
+      },
+      {
+        "value": "260",
+        "text": "А31МД3",
+        "selected": false
+      },
+      {
+        "value": "261",
+        "text": "А31МД4",
+        "selected": false
+      },
+      {
+        "value": "272",
+        "text": "А31МД5",
+        "selected": false
+      },
+      {
+        "value": "273",
+        "text": "А31МД6",
+        "selected": false
+      },
+      {
+        "value": "274",
+        "text": "А31МД7",
+        "selected": false
+      },
+      {
+        "value": "275",
+        "text": "А31МД8",
+        "selected": false
+      },
+      {
+        "value": "276",
+        "text": "А31МД9",
+        "selected": false
+      },
+      {
+        "value": "257",
+        "text": "А31ЭК1",
+        "selected": false
+      },
+      {
+        "value": "280",
+        "text": "А31ЭК2",
+        "selected": false
+      }
+    ],
+    "4_2_5": [],
+    "4_3_1": [],
+    "4_3_2": [
+      {
+        "value": "383",
+        "text": "А62МД1",
+        "selected": false
+      }
+    ],
+    "4_3_3": [
+      {
+        "value": "353",
+        "text": "А52МД1",
+        "selected": false
+      }
+    ],
+    "4_3_4": [
+      {
+        "value": "278",
+        "text": "А32МД1.1",
+        "selected": false
+      },
+      {
+        "value": "360",
+        "text": "А32МД1.2",
+        "selected": false
+      },
+      {
+        "value": "279",
+        "text": "А32МД2.1",
+        "selected": false
+      },
+      {
+        "value": "361",
+        "text": "А32МД2.2",
+        "selected": false
+      },
+      {
+        "value": "319",
+        "text": "А42МД1",
+        "selected": false
+      }
+    ],
+    "4_3_5": [
+      {
+        "value": "206",
+        "text": "А12МЕЭ1",
+        "selected": false
+      },
+      {
+        "value": "238",
+        "text": "А22МЕЭ1",
+        "selected": false
+      },
+      {
+        "value": "239",
+        "text": "А22МЕЭ2",
+        "selected": false
+      },
+      {
+        "value": "240",
+        "text": "А22МЕЭ3",
+        "selected": false
+      }
+    ]
+  },
+  "allGroups": [
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "369",
+      "groupName": "А61ИТ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "370",
+      "groupName": "А61ИТ2"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "371",
+      "groupName": "А61ИТ3"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "366",
+      "groupName": "А61МФ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "367",
+      "groupName": "А61ЭБ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "368",
+      "groupName": "А61ЭБ2"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "365",
+      "groupName": "А61ЯБ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "331",
+      "groupName": "А51ИТ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "332",
+      "groupName": "А51ИТ2"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "333",
+      "groupName": "А51ИТ3"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "334",
+      "groupName": "А51ИТ4"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "330",
+      "groupName": "А51МФ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "329",
+      "groupName": "А51ЯБ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "298",
+      "groupName": "А41ИТ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "299",
+      "groupName": "А41ИТ2"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "300",
+      "groupName": "А41ИТ3"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "301",
+      "groupName": "А41ИТ4"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "295",
+      "groupName": "А41МФ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "297",
+      "groupName": "А41ПД1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "296",
+      "groupName": "А41ТТ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "294",
+      "groupName": "А41ЯР1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "255",
+      "groupName": "А31ИТ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "256",
+      "groupName": "А31ИТ2"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "290",
+      "groupName": "А31ИТ3"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "252",
+      "groupName": "А31МФ"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "254",
+      "groupName": "А31ПД1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "253",
+      "groupName": "А31ТТ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "251",
+      "groupName": "А31ЯР1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "5",
+      "groupId": "223",
+      "groupName": "А21ЯРБ1"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "5",
+      "groupId": "229",
+      "groupName": "А22ЭТЭ"
+    },
+    {
+      "fac": "2",
+      "facName": "Факультет мониторинга окружающей среды",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "5",
+      "groupId": "277",
+      "groupName": "А32ТТ1"
+    },
+    {
+      "fac": "3",
+      "facName": "Факультет повышения квалификации и переподготовки",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "384",
+      "groupName": "А1"
+    },
+    {
+      "fac": "3",
+      "facName": "Факультет повышения квалификации и переподготовки",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "385",
+      "groupName": "А2"
+    },
+    {
+      "fac": "3",
+      "facName": "Факультет повышения квалификации и переподготовки",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "386",
+      "groupName": "А3"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "374",
+      "groupName": "А61МД1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "375",
+      "groupName": "А61МД2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "376",
+      "groupName": "А61МД3"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "377",
+      "groupName": "А61МД4"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "378",
+      "groupName": "А61МД5"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "372",
+      "groupName": "А61ЭК1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "1",
+      "groupId": "373",
+      "groupName": "А61ЭК2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "338",
+      "groupName": "А51МД1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "339",
+      "groupName": "А51МД2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "340",
+      "groupName": "А51МД3"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "341",
+      "groupName": "А51МД4"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "342",
+      "groupName": "А51МД5"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "335",
+      "groupName": "А51ЭК1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "336",
+      "groupName": "А51ЭК2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "2",
+      "groupId": "337",
+      "groupName": "А51ЭК3"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "304",
+      "groupName": "А41МД1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "305",
+      "groupName": "А41МД2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "306",
+      "groupName": "А41МД3"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "307",
+      "groupName": "А41МД4"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "308",
+      "groupName": "А41МД5"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "379",
+      "groupName": "А41МД6"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "302",
+      "groupName": "А41ЭК1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "303",
+      "groupName": "А41ЭК2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "3",
+      "groupId": "309",
+      "groupName": "А41ЭК3"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "258",
+      "groupName": "А31МД1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "259",
+      "groupName": "А31МД2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "260",
+      "groupName": "А31МД3"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "261",
+      "groupName": "А31МД4"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "272",
+      "groupName": "А31МД5"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "273",
+      "groupName": "А31МД6"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "274",
+      "groupName": "А31МД7"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "275",
+      "groupName": "А31МД8"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "276",
+      "groupName": "А31МД9"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "257",
+      "groupName": "А31ЭК1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "2",
+      "depName": "дневная форма",
+      "course": "4",
+      "groupId": "280",
+      "groupName": "А31ЭК2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "2",
+      "groupId": "383",
+      "groupName": "А62МД1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "3",
+      "groupId": "353",
+      "groupName": "А52МД1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "4",
+      "groupId": "278",
+      "groupName": "А32МД1.1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "4",
+      "groupId": "360",
+      "groupName": "А32МД1.2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "4",
+      "groupId": "279",
+      "groupName": "А32МД2.1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "4",
+      "groupId": "361",
+      "groupName": "А32МД2.2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "4",
+      "groupId": "319",
+      "groupName": "А42МД1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "5",
+      "groupId": "206",
+      "groupName": "А12МЕЭ1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "5",
+      "groupId": "238",
+      "groupName": "А22МЕЭ1"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "5",
+      "groupId": "239",
+      "groupName": "А22МЕЭ2"
+    },
+    {
+      "fac": "4",
+      "facName": "Факультет экологической медицины",
+      "dep": "3",
+      "depName": "заочная форма",
+      "course": "5",
+      "groupId": "240",
+      "groupName": "А22МЕЭ3"
+    }
+  ],
+  "weeks": [
+    {
+      "value": "11.01.2027 0:00:00",
+      "text": "11.01.2027",
+      "selected": false
+    },
+    {
+      "value": "04.01.2027 0:00:00",
+      "text": "04.01.2027",
+      "selected": false
+    },
+    {
+      "value": "28.12.2026 0:00:00",
+      "text": "28.12.2026",
+      "selected": false
+    },
+    {
+      "value": "21.12.2026 0:00:00",
+      "text": "21.12.2026",
+      "selected": false
+    },
+    {
+      "value": "14.12.2026 0:00:00",
+      "text": "14.12.2026",
+      "selected": false
+    },
+    {
+      "value": "07.12.2026 0:00:00",
+      "text": "07.12.2026",
+      "selected": false
+    },
+    {
+      "value": "30.11.2026 0:00:00",
+      "text": "30.11.2026",
+      "selected": false
+    },
+    {
+      "value": "23.11.2026 0:00:00",
+      "text": "23.11.2026",
+      "selected": false
+    },
+    {
+      "value": "16.11.2026 0:00:00",
+      "text": "16.11.2026",
+      "selected": false
+    },
+    {
+      "value": "09.11.2026 0:00:00",
+      "text": "09.11.2026",
+      "selected": false
+    },
+    {
+      "value": "02.11.2026 0:00:00",
+      "text": "02.11.2026",
+      "selected": false
+    },
+    {
+      "value": "26.10.2026 0:00:00",
+      "text": "26.10.2026",
+      "selected": false
+    },
+    {
+      "value": "19.10.2026 0:00:00",
+      "text": "19.10.2026",
+      "selected": false
+    },
+    {
+      "value": "12.10.2026 0:00:00",
+      "text": "12.10.2026",
+      "selected": false
+    },
+    {
+      "value": "05.10.2026 0:00:00",
+      "text": "05.10.2026",
+      "selected": false
+    },
+    {
+      "value": "28.09.2026 0:00:00",
+      "text": "28.09.2026",
+      "selected": false
+    },
+    {
+      "value": "21.09.2026 0:00:00",
+      "text": "21.09.2026",
+      "selected": true
+    },
+    {
+      "value": "14.09.2026 0:00:00",
+      "text": "14.09.2026",
+      "selected": false
+    },
+    {
+      "value": "07.09.2026 0:00:00",
+      "text": "07.09.2026",
+      "selected": false
+    },
+    {
+      "value": "31.08.2026 0:00:00",
+      "text": "31.08.2026",
+      "selected": false
+    },
+    {
+      "value": "24.08.2026 0:00:00",
+      "text": "24.08.2026",
+      "selected": false
+    },
+    {
+      "value": "17.08.2026 0:00:00",
+      "text": "17.08.2026",
+      "selected": false
+    },
+    {
+      "value": "10.08.2026 0:00:00",
+      "text": "10.08.2026",
+      "selected": false
+    },
+    {
+      "value": "03.08.2026 0:00:00",
+      "text": "03.08.2026",
+      "selected": false
+    },
+    {
+      "value": "27.07.2026 0:00:00",
+      "text": "27.07.2026",
+      "selected": false
+    },
+    {
+      "value": "20.07.2026 0:00:00",
+      "text": "20.07.2026",
+      "selected": false
+    },
+    {
+      "value": "13.07.2026 0:00:00",
+      "text": "13.07.2026",
+      "selected": false
+    },
+    {
+      "value": "06.07.2026 0:00:00",
+      "text": "06.07.2026",
+      "selected": false
+    },
+    {
+      "value": "29.06.2026 0:00:00",
+      "text": "29.06.2026",
+      "selected": false
+    },
+    {
+      "value": "22.06.2026 0:00:00",
+      "text": "22.06.2026",
+      "selected": false
+    },
+    {
+      "value": "15.06.2026 0:00:00",
+      "text": "15.06.2026",
+      "selected": false
+    },
+    {
+      "value": "08.06.2026 0:00:00",
+      "text": "08.06.2026",
+      "selected": false
+    },
+    {
+      "value": "01.06.2026 0:00:00",
+      "text": "01.06.2026",
+      "selected": false
+    },
+    {
+      "value": "25.05.2026 0:00:00",
+      "text": "25.05.2026",
+      "selected": false
+    },
+    {
+      "value": "18.05.2026 0:00:00",
+      "text": "18.05.2026",
+      "selected": false
+    },
+    {
+      "value": "11.05.2026 0:00:00",
+      "text": "11.05.2026",
+      "selected": false
+    },
+    {
+      "value": "04.05.2026 0:00:00",
+      "text": "04.05.2026",
+      "selected": false
+    },
+    {
+      "value": "27.04.2026 0:00:00",
+      "text": "27.04.2026",
+      "selected": false
+    },
+    {
+      "value": "20.04.2026 0:00:00",
+      "text": "20.04.2026",
+      "selected": false
+    },
+    {
+      "value": "13.04.2026 0:00:00",
+      "text": "13.04.2026",
+      "selected": false
+    },
+    {
+      "value": "06.04.2026 0:00:00",
+      "text": "06.04.2026",
+      "selected": false
+    },
+    {
+      "value": "30.03.2026 0:00:00",
+      "text": "30.03.2026",
+      "selected": false
+    },
+    {
+      "value": "23.03.2026 0:00:00",
+      "text": "23.03.2026",
+      "selected": false
+    },
+    {
+      "value": "16.03.2026 0:00:00",
+      "text": "16.03.2026",
+      "selected": false
+    },
+    {
+      "value": "09.03.2026 0:00:00",
+      "text": "09.03.2026",
+      "selected": false
+    },
+    {
+      "value": "02.03.2026 0:00:00",
+      "text": "02.03.2026",
+      "selected": false
+    },
+    {
+      "value": "23.02.2026 0:00:00",
+      "text": "23.02.2026",
+      "selected": false
+    },
+    {
+      "value": "16.02.2026 0:00:00",
+      "text": "16.02.2026",
+      "selected": false
+    },
+    {
+      "value": "09.02.2026 0:00:00",
+      "text": "09.02.2026",
+      "selected": false
+    },
+    {
+      "value": "02.02.2026 0:00:00",
+      "text": "02.02.2026",
+      "selected": false
+    },
+    {
+      "value": "26.01.2026 0:00:00",
+      "text": "26.01.2026",
+      "selected": false
+    },
+    {
+      "value": "19.01.2026 0:00:00",
+      "text": "19.01.2026",
+      "selected": false
+    },
+    {
+      "value": "12.01.2026 0:00:00",
+      "text": "12.01.2026",
+      "selected": false
+    },
+    {
+      "value": "05.01.2026 0:00:00",
+      "text": "05.01.2026",
+      "selected": false
+    },
+    {
+      "value": "29.12.2025 0:00:00",
+      "text": "29.12.2025",
+      "selected": false
+    },
+    {
+      "value": "22.12.2025 0:00:00",
+      "text": "22.12.2025",
+      "selected": false
+    },
+    {
+      "value": "15.12.2025 0:00:00",
+      "text": "15.12.2025",
+      "selected": false
+    },
+    {
+      "value": "08.12.2025 0:00:00",
+      "text": "08.12.2025",
+      "selected": false
+    },
+    {
+      "value": "01.12.2025 0:00:00",
+      "text": "01.12.2025",
+      "selected": false
+    },
+    {
+      "value": "24.11.2025 0:00:00",
+      "text": "24.11.2025",
+      "selected": false
+    },
+    {
+      "value": "17.11.2025 0:00:00",
+      "text": "17.11.2025",
+      "selected": false
+    },
+    {
+      "value": "10.11.2025 0:00:00",
+      "text": "10.11.2025",
+      "selected": false
+    },
+    {
+      "value": "03.11.2025 0:00:00",
+      "text": "03.11.2025",
+      "selected": false
+    },
+    {
+      "value": "27.10.2025 0:00:00",
+      "text": "27.10.2025",
+      "selected": false
+    },
+    {
+      "value": "20.10.2025 0:00:00",
+      "text": "20.10.2025",
+      "selected": false
+    },
+    {
+      "value": "13.10.2025 0:00:00",
+      "text": "13.10.2025",
+      "selected": false
+    },
+    {
+      "value": "06.10.2025 0:00:00",
+      "text": "06.10.2025",
+      "selected": false
+    },
+    {
+      "value": "29.09.2025 0:00:00",
+      "text": "29.09.2025",
+      "selected": false
+    },
+    {
+      "value": "22.09.2025 0:00:00",
+      "text": "22.09.2025",
+      "selected": false
+    },
+    {
+      "value": "15.09.2025 0:00:00",
+      "text": "15.09.2025",
+      "selected": false
+    },
+    {
+      "value": "08.09.2025 0:00:00",
+      "text": "08.09.2025",
+      "selected": false
+    },
+    {
+      "value": "01.09.2025 0:00:00",
+      "text": "01.09.2025",
+      "selected": false
+    },
+    {
+      "value": "14.07.2025 0:00:00",
+      "text": "14.07.2025",
+      "selected": false
+    },
+    {
+      "value": "07.07.2025 0:00:00",
+      "text": "07.07.2025",
+      "selected": false
+    },
+    {
+      "value": "30.06.2025 0:00:00",
+      "text": "30.06.2025",
+      "selected": false
+    },
+    {
+      "value": "23.06.2025 0:00:00",
+      "text": "23.06.2025",
+      "selected": false
+    },
+    {
+      "value": "16.06.2025 0:00:00",
+      "text": "16.06.2025",
+      "selected": false
+    },
+    {
+      "value": "09.06.2025 0:00:00",
+      "text": "09.06.2025",
+      "selected": false
+    },
+    {
+      "value": "02.06.2025 0:00:00",
+      "text": "02.06.2025",
+      "selected": false
+    },
+    {
+      "value": "26.05.2025 0:00:00",
+      "text": "26.05.2025",
+      "selected": false
+    },
+    {
+      "value": "19.05.2025 0:00:00",
+      "text": "19.05.2025",
+      "selected": false
+    },
+    {
+      "value": "12.05.2025 0:00:00",
+      "text": "12.05.2025",
+      "selected": false
+    },
+    {
+      "value": "05.05.2025 0:00:00",
+      "text": "05.05.2025",
+      "selected": false
+    },
+    {
+      "value": "28.04.2025 0:00:00",
+      "text": "28.04.2025",
+      "selected": false
+    },
+    {
+      "value": "21.04.2025 0:00:00",
+      "text": "21.04.2025",
+      "selected": false
+    },
+    {
+      "value": "14.04.2025 0:00:00",
+      "text": "14.04.2025",
+      "selected": false
+    },
+    {
+      "value": "07.04.2025 0:00:00",
+      "text": "07.04.2025",
+      "selected": false
+    },
+    {
+      "value": "31.03.2025 0:00:00",
+      "text": "31.03.2025",
+      "selected": false
+    },
+    {
+      "value": "24.03.2025 0:00:00",
+      "text": "24.03.2025",
+      "selected": false
+    },
+    {
+      "value": "17.03.2025 0:00:00",
+      "text": "17.03.2025",
+      "selected": false
+    },
+    {
+      "value": "10.03.2025 0:00:00",
+      "text": "10.03.2025",
+      "selected": false
+    },
+    {
+      "value": "03.03.2025 0:00:00",
+      "text": "03.03.2025",
+      "selected": false
+    },
+    {
+      "value": "24.02.2025 0:00:00",
+      "text": "24.02.2025",
+      "selected": false
+    },
+    {
+      "value": "17.02.2025 0:00:00",
+      "text": "17.02.2025",
+      "selected": false
+    },
+    {
+      "value": "10.02.2025 0:00:00",
+      "text": "10.02.2025",
+      "selected": false
+    },
+    {
+      "value": "03.02.2025 0:00:00",
+      "text": "03.02.2025",
+      "selected": false
+    },
+    {
+      "value": "27.01.2025 0:00:00",
+      "text": "27.01.2025",
+      "selected": false
+    },
+    {
+      "value": "20.01.2025 0:00:00",
+      "text": "20.01.2025",
+      "selected": false
+    },
+    {
+      "value": "13.01.2025 0:00:00",
+      "text": "13.01.2025",
+      "selected": false
+    },
+    {
+      "value": "06.01.2025 0:00:00",
+      "text": "06.01.2025",
+      "selected": false
+    },
+    {
+      "value": "30.12.2024 0:00:00",
+      "text": "30.12.2024",
+      "selected": false
+    },
+    {
+      "value": "23.12.2024 0:00:00",
+      "text": "23.12.2024",
+      "selected": false
+    },
+    {
+      "value": "16.12.2024 0:00:00",
+      "text": "16.12.2024",
+      "selected": false
+    },
+    {
+      "value": "09.12.2024 0:00:00",
+      "text": "09.12.2024",
+      "selected": false
+    },
+    {
+      "value": "02.12.2024 0:00:00",
+      "text": "02.12.2024",
+      "selected": false
+    },
+    {
+      "value": "25.11.2024 0:00:00",
+      "text": "25.11.2024",
+      "selected": false
+    },
+    {
+      "value": "18.11.2024 0:00:00",
+      "text": "18.11.2024",
+      "selected": false
+    },
+    {
+      "value": "11.11.2024 0:00:00",
+      "text": "11.11.2024",
+      "selected": false
+    },
+    {
+      "value": "04.11.2024 0:00:00",
+      "text": "04.11.2024",
+      "selected": false
+    },
+    {
+      "value": "28.10.2024 0:00:00",
+      "text": "28.10.2024",
+      "selected": false
+    },
+    {
+      "value": "21.10.2024 0:00:00",
+      "text": "21.10.2024",
+      "selected": false
+    },
+    {
+      "value": "14.10.2024 0:00:00",
+      "text": "14.10.2024",
+      "selected": false
+    },
+    {
+      "value": "07.10.2024 0:00:00",
+      "text": "07.10.2024",
+      "selected": false
+    },
+    {
+      "value": "30.09.2024 0:00:00",
+      "text": "30.09.2024",
+      "selected": false
+    },
+    {
+      "value": "23.09.2024 0:00:00",
+      "text": "23.09.2024",
+      "selected": false
+    },
+    {
+      "value": "16.09.2024 0:00:00",
+      "text": "16.09.2024",
+      "selected": false
+    },
+    {
+      "value": "09.09.2024 0:00:00",
+      "text": "09.09.2024",
+      "selected": false
+    },
+    {
+      "value": "02.09.2024 0:00:00",
+      "text": "02.09.2024",
+      "selected": false
+    },
+    {
+      "value": "15.07.2024 0:00:00",
+      "text": "15.07.2024",
+      "selected": false
+    }
+  ],
+  "currentWeek": "21.09.2026 0:00:00",
+  "stats": {
+    "totalGroups": 80,
+    "totalSchedulesSaved": 560,
+    "errorsCount": 0,
+    "durationSec": 105.1,
+    "finishedAt": "2026-09-24T16:19:16.339Z"
+  },
+  "targetWeeks": [
+    {
+      "value": "19.10.2026 0:00:00",
+      "text": "19.10.2026",
+      "selected": false
+    },
+    {
+      "value": "12.10.2026 0:00:00",
+      "text": "12.10.2026",
+      "selected": false
+    },
+    {
+      "value": "05.10.2026 0:00:00",
+      "text": "05.10.2026",
+      "selected": false
+    },
+    {
+      "value": "28.09.2026 0:00:00",
+      "text": "28.09.2026",
+      "selected": false
+    },
+    {
+      "value": "21.09.2026 0:00:00",
+      "text": "21.09.2026",
+      "selected": true
+    },
+    {
+      "value": "14.09.2026 0:00:00",
+      "text": "14.09.2026",
+      "selected": false
+    },
+    {
+      "value": "07.09.2026 0:00:00",
+      "text": "07.09.2026",
+      "selected": false
+    }
+  ]
+}
