@@ -4,7 +4,7 @@
   "faculty": "Факультет мониторинга окружающей среды",
   "week": "30.11.2026 0:00:00",
   "weekDate": "30.11.2026",
-  "savedAt": "2026-11-11T15:46:22.521Z",
+  "savedAt": "2026-11-13T15:50:58.729Z",
   "days": {
     "Понедельник": [
       {
@@ -16,7 +16,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -28,7 +28,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -58,7 +58,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -70,7 +70,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       }
     ],
@@ -133,7 +133,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -145,7 +145,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -157,7 +157,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -169,7 +169,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -181,7 +181,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -193,7 +193,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       }
     ],
@@ -227,7 +227,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -239,7 +239,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       }
     ]

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T15:44:27.613Z",
-  "updatedAtFormatted": "11.11.2026, 18:44",
+  "updatedAt": "2026-11-13T15:49:32.896Z",
+  "updatedAtFormatted": "13.11.2026, 18:49",
   "faculties": [
     {
       "value": "2",
@@ -1775,8 +1775,8 @@
     "totalGroups": 76,
     "totalSchedulesSaved": 532,
     "errorsCount": 0,
-    "durationSec": 451.5,
-    "finishedAt": "2026-11-11T15:51:58.312Z"
+    "durationSec": 302,
+    "finishedAt": "2026-11-13T15:54:33.462Z"
   },
   "targetWeeks": [
     {

@@ -4,7 +4,7 @@
   "faculty": "Факультет экологической медицины",
   "week": "23.11.2026 0:00:00",
   "weekDate": "23.11.2026",
-  "savedAt": "2026-11-11T15:48:27.960Z",
+  "savedAt": "2026-11-13T15:52:23.422Z",
   "days": {
     "Понедельник": [
       {
@@ -16,7 +16,7 @@
         "subgroup": "",
         "type": "lab",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -28,7 +28,7 @@
         "subgroup": "",
         "type": "lab",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -51,7 +51,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -72,7 +72,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -84,7 +84,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -96,7 +96,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -108,7 +108,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -158,7 +158,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       }
     ],
@@ -217,7 +217,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       }
     ],
@@ -231,7 +231,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -243,7 +243,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -255,7 +255,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -267,7 +267,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -279,7 +279,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -291,7 +291,7 @@
         "subgroup": "",
         "type": "lab",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       },
       {
@@ -303,7 +303,7 @@
         "subgroup": "",
         "type": "practice",
         "topics": [
-          "2п/гр"
+          "[2п/гр]"
         ]
       },
       {
@@ -315,7 +315,7 @@
         "subgroup": "",
         "type": "lab",
         "topics": [
-          "1п/гр"
+          "[1п/гр]"
         ]
       }
     ],
