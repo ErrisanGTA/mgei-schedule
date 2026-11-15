@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T14:40:41.385Z",
-  "updatedAtFormatted": "14.11.2026, 17:40",
+  "updatedAt": "2026-11-15T15:09:46.121Z",
+  "updatedAtFormatted": "15.11.2026, 18:09",
   "faculties": [
     {
       "value": "2",
@@ -1763,11 +1763,6 @@
       "value": "09.09.2024 0:00:00",
       "text": "09.09.2024",
       "selected": false
-    },
-    {
-      "value": "02.09.2024 0:00:00",
-      "text": "02.09.2024",
-      "selected": false
     }
   ],
   "currentWeek": "09.11.2026 0:00:00",
@@ -1775,8 +1770,8 @@
     "totalGroups": 76,
     "totalSchedulesSaved": 532,
     "errorsCount": 0,
-    "durationSec": 227.5,
-    "finishedAt": "2026-11-14T14:44:27.950Z"
+    "durationSec": 290.5,
+    "finishedAt": "2026-11-15T15:14:36.030Z"
   },
   "targetWeeks": [
     {
