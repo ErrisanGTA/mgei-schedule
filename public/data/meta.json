@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T15:48:59.718Z",
-  "updatedAtFormatted": "22.11.2026, 18:48",
+  "updatedAt": "2026-11-25T18:20:13.235Z",
+  "updatedAtFormatted": "25.11.2026, 21:20",
   "faculties": [
     {
       "value": "2",
@@ -1217,12 +1217,12 @@
     {
       "value": "23.11.2026 0:00:00",
       "text": "23.11.2026",
-      "selected": false
+      "selected": true
     },
     {
       "value": "16.11.2026 0:00:00",
       "text": "16.11.2026",
-      "selected": true
+      "selected": false
     },
     {
       "value": "09.11.2026 0:00:00",
@@ -1760,15 +1760,20 @@
       "selected": false
     }
   ],
-  "currentWeek": "16.11.2026 0:00:00",
+  "currentWeek": "23.11.2026 0:00:00",
   "stats": {
     "totalGroups": 76,
     "totalSchedulesSaved": 532,
     "errorsCount": 0,
-    "durationSec": 282.1,
-    "finishedAt": "2026-11-22T15:53:41.103Z"
+    "durationSec": 366.9,
+    "finishedAt": "2026-11-25T18:26:19.657Z"
   },
   "targetWeeks": [
+    {
+      "value": "21.12.2026 0:00:00",
+      "text": "21.12.2026",
+      "selected": false
+    },
     {
       "value": "14.12.2026 0:00:00",
       "text": "14.12.2026",
@@ -1787,21 +1792,16 @@
     {
       "value": "23.11.2026 0:00:00",
       "text": "23.11.2026",
-      "selected": false
+      "selected": true
     },
     {
       "value": "16.11.2026 0:00:00",
       "text": "16.11.2026",
-      "selected": true
+      "selected": false
     },
     {
       "value": "09.11.2026 0:00:00",
       "text": "09.11.2026",
-      "selected": false
-    },
-    {
-      "value": "02.11.2026 0:00:00",
-      "text": "02.11.2026",
       "selected": false
     }
   ]
